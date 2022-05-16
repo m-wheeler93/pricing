@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 95vh;
+    background-image: url("unsplashBG1.jpg");
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-top: 3%;
+    text-shadow: 2px 2px 2px black;
+}
+
+section {
+    height: 70vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 5%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0 0 4rem rgb(0, 38, 255);
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+div {
+    height: 85%;
+    width: 25%;
+    margin: auto;
+    padding: 2%;
+    border: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#free-plan {
+    box-shadow: 0 0 1.5rem hotpink;
+}
+
+#free-plan h3 {
+    color: hotpink;
+    text-shadow: 0 0 1rem black;
+}
+
+#mid-plan {
+    box-shadow: 0 0 1.5rem yellow;
+}
+
+#mid-plan h3 {
+    color: yellow;
+    text-shadow: 0 0 1rem black;
+}
+
+#full-plan {
+    box-shadow: 0 0 1.5rem rgb(1, 255, 255);
+
+}
+
+#full-plan h3 {
+    color: rgb(1, 255, 255);
+    text-shadow: 0 0 1rem black;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+p {
+    text-indent: 7%;
+}
+
+button {
+    font-size: 1rem;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: linear 0.7s;
+}
+
+#free-plan-btn {
+    box-shadow: 0 0 0.7rem hotpink;
+}
+
+#free-plan-btn:hover {
+    box-shadow: 0 0 1.4rem hotpink;
+}
+
+#mid-plan-btn {
+    box-shadow: 0 0 0.7rem yellow;
+}
+
+#mid-plan-btn:hover {
+    box-shadow: 0 0 1.4rem yellow;
+}
+
+#full-plan-btn {
+    box-shadow: 0 0 0.7rem rgb(1, 255, 255);
+}
+
+#full-plan-btn:hover {
+    box-shadow: 0 0 1.4rem rgb(1, 255, 255);
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(9, 185, 185);
+    text-shadow: 2px 2px 3px black;
+}
+
+#asterisk {
+    width: 60%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 750px) {
+    section {
+        display: block;
+        height: fit-content;
+        width: 70vw;
+        margin: auto;
+        margin-top: 6%;
+        padding: 2%;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        height: fit-content;
+        width: 70%;
+        margin: auto;
+        margin-top: 5%;
+    }
+  }
